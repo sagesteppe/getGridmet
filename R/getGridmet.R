@@ -8,10 +8,9 @@
 #' @param end_year = current year or less
 #' @param destination = location where raw data is downloaded to
 #'
-#' @example Get_Gridmet(product_type = "fm100", start_year = 1999, end_year = 2001,
-#' destination = "/media/sagesteppe/External HD/Get_Gridmet/Data/Raw")
+#' @example Get_Gridmet(product_type = "fm100", start_year = 1999, end_year = 2001,  destination = "/media/sagesteppe/External HD/Get_Gridmet/Data/Raw")
 #' @export
-Get_Gridmet <- function(product_type, start_year, end_year, destination){
+getGridmet <- function(product_type, start_year, end_year, destination){
 
   # bowling with bumpers
   start_year <- as.numeric(as.numeric(start_year))
@@ -46,10 +45,9 @@ Get_Gridmet <- function(product_type, start_year, end_year, destination){
   ifelse(!dir.exists(file.path(mainDir, subDir)),
          dir.create(file.path(mainDir, subDir)), FALSE)
 
-  download.file(test_URL, destinations)
+  utils::download.file(test_URL, destinations)
 
   Sys.sleep(3)
   options(timeout = initial_timeout)
 
 }
-

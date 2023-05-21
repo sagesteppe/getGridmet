@@ -3,9 +3,8 @@ citHeader("To cite getGridmet in publications use:")
 citEntry(
   entry    = "Misc",
   title    = "getGridmet",
-  author   = c(Hannah Lovell, Reed Clark Benkendorf),
+  author   = c('Hannah Lovell', 'Reed Clark Benkendorf'),
   year     = 2022,
   url      = "https://github.com/sagesteppe/getGridmet",
   textVersion = {"Lovell & Benkendorf (2022). getGtidmet, https://github.com/sagesteppe/getGtidmet"}
   )
-)

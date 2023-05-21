@@ -2,11 +2,9 @@ Package: getGridmet
 Type: Package
 Title: getGridmet (Download gridmet data to a computer near you)
 Version: 0.1.0
-Maintainer: steppe <reedbenkendorf27@gmail.com>
 Authors@R: 
-   c(person(given = "Hannah", family = "Lovell", role = c("aut", "cre")),
-    person(given = "Reed Clark", family = "Benkendorf", role = c("aut", "cre")))
-Maintainer: The package maintainer <yourself@somewhere.net>
+   c(person(given = "Hannah", family = "Lovell", role =  "aut"),
+    person(given = "Reed Clark", family = "Benkendorf", role = c("aut", "cre", "ctb"), email = "reedbenkendorf27@gmail.com"))
 Description: This package automates the downloading of any gridmet product over any relevant time period to your local computer. 
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -16,3 +14,4 @@ Suggests:
     utils,
     knitr,
     rmarkdown
+RoxygenNote: 7.2.3
