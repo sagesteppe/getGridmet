@@ -26,7 +26,7 @@ The purpose of this function is to automate downloading data products from the G
 
 ## installation
 
-The package can be installed from either github, using the remotes package
+The package can be installed from github, using the remotes package. 
 ```
 install.packages('remotes', dependencies = T)  
 remotes::install_github('sagesteppe/getGridmet')  
