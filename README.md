@@ -23,3 +23,19 @@ The purpose of this function is to automate downloading data products from the G
 | Minimum temperature (K)                       |         tmmx         |
  	
 
+
+## installation
+
+The package can be installed from either github, using the remotes package
+```
+install.packages('remotes', dependencies = T)  
+remotes::install_github('sagesteppe/AugspurgerIndex')  
+```
+
+##citation
+
+citation('getGridmet')
+
+Please cite getGridmet in publications using:
+
+

@@ -1,11 +1,18 @@
 Package: getGridmet
 Type: Package
-Title: What the Package Does (Title Case)
+Title: getGridmet (Download gridmet data to a computer near you)
 Version: 0.1.0
-Author: Who wrote it
+Maintainer: steppe <reedbenkendorf27@gmail.com>
+Authors@R: 
+   c(person(given = "Hannah", family = "Lovell", role = c("aut", "cre")),
+    person(given = "Reed Clark", family = "Benkendorf", role = c("aut", "cre")))
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: This package automates the downloading of any gridmet product over any relevant time period to your local computer. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    testthat (>= 3.0.0),
+    utils,
+    knitr,
+    rmarkdown
