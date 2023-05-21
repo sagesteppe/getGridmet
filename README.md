@@ -29,13 +29,27 @@ The purpose of this function is to automate downloading data products from the G
 The package can be installed from either github, using the remotes package
 ```
 install.packages('remotes', dependencies = T)  
-remotes::install_github('sagesteppe/AugspurgerIndex')  
+remotes::install_github('sagesteppe/getGridmet')  
 ```
 
-##citation
 
-citation('getGridmet')
+## citation
 
-Please cite getGridmet in publications using:
 
+```
+print(citation('sf'), bibtex = T)
+```
+
+To cite 'getGridmet' in publications use:  
+
+  Lovell & Benkendorf (2022). getGtidmet, https://github.com/sagesteppe/getGtidmet  
+
+A BibTeX entry for LaTeX users is  
+
+  @Misc{,  
+    title = {getGridmet},  
+    author = {Hannah Lovell and Reed Clark Benkendorf},  
+    year = {2022},  
+    url = {https://github.com/sagesteppe/getGridmet},  
+  }  
 
